@@ -29,5 +29,13 @@ To run the Docker container from the image you just built, use the following com
 sudo docker run -it --net=host -e DISPLAY -v /tmp/.X11-unix/ --privileged rviz-docker
 ```
 
-
 ## Rviz and Docker Devcontainer
+# NOT working
+```shell
+source /opt/ros/noetic/setup.bash
+roscore
+```
+```shell
+source /opt/ros/noetic/setup.bash
+rviz
+```
